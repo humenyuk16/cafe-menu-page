@@ -1,0 +1,232 @@
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: Montserrat,sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.menu {
+  flex-grow: 1;
+  margin-top: 40px; 
+  background-color: burlywood;
+  padding: 30px; 
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* navbar */
+
+.navbar {
+  background-color: peru;
+  padding: 10px 15px;
+  }
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.nav-menu a {
+  color: black;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.nav-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+/* menu */
+
+.menu {
+  padding: 20px;
+}
+ 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1, h2 {
+  font-family: Montserrat, serif;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 5px 10px;
+  
+}
+.flex-item {
+  width:40%;
+  text-align: left;
+  font-size: 18px;
+}
+.flex-item1 {
+  width:40%;
+  text-align: right;
+  font-size: 18px;
+}
+
+
+/* FOOTER */
+
+
+.footer {
+  background-color: #C07331;
+  color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 0 20px;
+
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column li {
+  margin: 5px 0;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.column li:hover {
+  color: brown; 
+  
+}
+
+.map-container {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.map-container iframe {
+  width: 40%;
+  height: 80%;
+  border: none;
+}
+
+.map-text {
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 10px;
+  color: black;}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.column h4 {
+  font-weight: bold;
+}
+ 
+.retreat {
+  margin-left: 15px;
+  color: #888;
+}
+
+/* mobile layout*/
+
+@media (max-width: 768px) {
+  .menu {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+  }
+
+  .nav-logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .column {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .map-container {
+    padding: 0;
+  }
+
+  .map-container iframe {
+    width: 100%;
+    height: 150px;
+  }
+}
+
+/* button*/
+
+.language-button {
+  background-color: peru;
+  color: Black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.language-button:hover {
+  background-color: #b17a3b;
+}
+
+
+
+
